@@ -1,0 +1,1 @@
+python encoder/encoder_ppo.py with EX_NAME="encoder_ppo_sp_simple_predactionmoreprobsaddrand" layout_name="simple" REW_SHAPING_HORIZON=2.5e6 LR=1e-3 PPO_RUN_TOT_TIMESTEPS=4.8e6 OTHER_AGENT_TYPE="sp" SEEDS="[2229,7649,7225,9807,386]" VF_COEF=1 TIMESTAMP_DIR=False LATENT_DIM=64 LENGTH=5 TRAIN_MODE='MLP' COPY=0.1 RAND=0.7 #-u > nohup.out 2>&1 &
